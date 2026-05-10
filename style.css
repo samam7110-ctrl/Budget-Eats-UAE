@@ -287,5 +287,16 @@ line-height:1.9;
 color:#444;
 text-align:left;
 }
+img {
+    display: block;
+}
+  body {
+    margin: 0;
+    padding: 0;
+}
+  img {
+    width: 100%;
+    height: auto;
+}
 
 }
