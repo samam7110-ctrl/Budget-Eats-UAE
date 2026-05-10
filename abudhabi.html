@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AbuDhabi Restaurants</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>AbuDhabi Restaurants</h1>
+
+<nav>
+<a href="index.html">Home</a>
+</nav>
+
+</header>
+
+<section>
+
+<h2 class="section-title">Choose Food Type</h2>
+
+<div class="categories">
+
+<button onclick="show('fastfood')">Fast Food</button>
+<button onclick="show('arabic')">Arabian Food</button>
+<button onclick="show('seafood')">Seafood</button>
+<button onclick="show('breakfast')">Breakfast</button>
+<button onclick="show('desserts')">Desserts</button>
+<button onclick="show('cafes')">Cafés</button>
+
+</div>
+<!-- FAST FOOD -->
+
+<div id="fastfood" class="food-section">
+
+<h2 class="section-title">Fast Food</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlfi6FqpSYpb1NYYscQ59kDy0wDcwKxRvulw&s">
+<div class="card-content">
+<h3>Texas Chicken</h3>
+<p>Fast Food</p>
+<p class="price">AED 20 - 35</p>
+<p class="rating">⭐ 4.4</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AZIBqT24dS-nHtCr2f5hpRzMYen2Nn_xyA&s">
+<div class="card-content">
+<h3>Hardee’s</h3>
+<p>Fast Food</p>
+<p class="price">AED 20 - 40</p>
+<p class="rating">⭐ 4.3</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.deliveryhero.io/image/talabat/restaurants/logo_637467480243738432.jpg?width=180">
+<div class="card-content">
+<h3>Royal Pinoy</h3>
+<p>Fast Food</p>
+<p class="price">AED 15 - 40</p>
+<p class="rating">⭐ 4.0</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- SEAFOOD -->
+
+<div id="seafood" class="food-section">
+
+<h2 class="section-title">Seafood</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUNXe0Ekx850Zyz8--BmRuczJIulLb5REdhg&s">
+<div class="card-content">
+<h3>Fishmarket</h3>
+<p>Seafood</p>
+<p class="price">Around AED 50</p>
+<p class="rating">⭐ 4.6</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTndFJHbydOC7pKfzqDsgnR8eUYyw0j0d-pFw&s">
+<div class="card-content">
+<h3>Dampa Seafood Grill</h3>
+<p>Seafood</p>
+<p class="price">AED 40 - 50</p>
+<p class="rating">⭐ 4.5</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.deliveryhero.io/image/talabat/restaurants/logo_637209161708634974.jpg?width=180">
+<div class="card-content">
+<h3>Al Dhafra Restaurant</h3>
+<p>Seafood</p>
+<p class="price">AED 45 - 50</p>
+<p class="rating">⭐ 4.5</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- ARABIAN FOOD -->
+
+<div id="arabic" class="food-section">
+
+<h2 class="section-title">Arabian Food</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.deliveryhero.io/image/talabat/restaurants/Logo_1_636554312682181328638180081933017339.jpg?width=180">
+<div class="card-content">
+<h3>Bait El Khetyar</h3>
+<p>Arabian Food</p>
+<p class="price">AED 30 - 45</p>
+<p class="rating">⭐ 4.5</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmypdANqYAcxhqT9erSdiqEq43cMHnogMj-Q&s">
+<div class="card-content">
+<h3>Lebanese Mill</h3>
+<p>Arabian Food</p>
+<p class="price">AED 20 - 45</p>
+<p class="rating">⭐ 4.4</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://mallahuae.com/wp-content/uploads/2023/08/cropped-logo.png">
+<div class="card-content">
+<h3>Mallah Restaurant</h3>
+<p>Arabian Food</p>
+<p class="price">AED 20 - 40</p>
+<p class="rating">⭐ 4.4</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- CAFÉS -->
+
+<div id="cafes" class="food-section">
+
+<h2 class="section-title">Cafés</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmwscAeYHFTHIskvYTyj0uLff5tT8IeCIbA&s">
+<div class="card-content">
+<h3>Cafe Arabia</h3>
+<p>Café</p>
+<p class="price">AED 25 - 45</p>
+<p class="rating">⭐ 4.5</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS1qJywTiUTzlunXH4GNoWO-3AeDV9lgUEDA&s">
+<div class="card-content">
+<h3>Art House Café</h3>
+<p>Café</p>
+<p class="price">AED 25 - 50</p>
+<p class="rating">⭐ 4.6</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR07HRMz_CKxhjaAK7AU8l1TPqv-V2XP_q40Q&s">
+<div class="card-content">
+<h3>Milestones Coffee</h3>
+<p>Café</p>
+<p class="price">AED 15 - 40</p>
+<p class="rating">⭐ 4.9</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- DESSERTS -->
+
+<div id="desserts" class="food-section">
+
+<h2 class="section-title">Desserts</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://logos-world.net/wp-content/uploads/2020/12/Dunkin-Emblem.png">
+<div class="card-content">
+<h3>Dunkin’ donuts</h3>
+<p>Desserts</p>
+<p class="price">AED 10 - 30</p>
+<p class="rating">⭐ 4.4</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXHzGuYW1sDTePXoMst_J7Sb5_KZFtXgMBAw&s">
+<div class="card-content">
+<h3>Magnolia Bakery</h3>
+<p>Desserts</p>
+<p class="price">AED 20 - 45</p>
+<p class="rating">⭐ 4.5</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgD3zXld44GG30KVXr_ijFlXT3EHNZAJaRkA&s">
+<div class="card-content">
+<h3>Salt & Caramel</h3>
+<p>Desserts</p>
+<p class="price">AED 25 - 50</p>
+<p class="rating">⭐ 4.5</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- BREAKFAST -->
+
+<div id="breakfast" class="food-section">
+
+<h2 class="section-title">Breakfast</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp1UANYAjPyLYOwCoBwfYgsrmDXwNmSKGp7Q&s">
+<div class="card-content">
+<h3>Evergreen Restaurant</h3>
+<p>Breakfast</p>
+<p class="price">AED 10 - 35</p>
+<p class="rating">⭐ 4.1</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHOzJehtfGbkCEFbgRZfq0xjs-HHVkEWG0lQ&s">
+<div class="card-content">
+<h3>Cafe Arabia</h3>
+<p>Breakfast</p>
+<p class="price">AED 25 - 45</p>
+<p class="rating">⭐ 4.5</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.deliveryhero.io/image/talabat/restaurants/Jones_the_grocer_log_637159906072681007.jpg?width=180">
+<div class="card-content">
+<h3>Jones the Grocer</h3>
+<p>Breakfast</p>
+<p class="price">AED 40 - 50</p>
+<p class="rating">⭐ 4.6</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<footer>
+<p>Created by: Sama M, Sama B, Rawdah</p>
+</footer>
+
+<script>
+
+function show(id){
+
+let sections = document.querySelectorAll('.food-section');
+
+sections.forEach(section => {
+section.style.display = 'none';
+});
+
+document.getElementById(id).style.display = 'block';
+
+}
+
+</script>
+
+</body>
+</html>
