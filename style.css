@@ -1,3 +1,4 @@
+/* RESET */
 *{
 margin:0;
 padding:0;
@@ -9,10 +10,18 @@ scroll-behavior:smooth;
 body{
 background:#f5f5f5;
 color:#333;
+margin:0;
+padding:0;
+}
+
+/* IMAGE FIX (removes space + makes responsive) */
+img{
+display:block;
+width:100%;
+height:auto;
 }
 
 /* HEADER */
-
 header{
 background:#111;
 padding:20px 50px;
@@ -42,12 +51,9 @@ color:#cfcfcf;
 }
 
 /* HERO SECTION */
-
 .hero{
 height:90vh;
-background:url('images/homepage.png');;
-background-size:contain;
-background-position:center;
+background:url('images/homepage.png') center/cover no-repeat;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -73,8 +79,7 @@ font-size:20px;
 line-height:1.8;
 }
 
-/* GENERAL */
-
+/* SECTIONS */
 section{
 padding:70px 10%;
 }
@@ -87,7 +92,6 @@ color:#111;
 }
 
 /* EMIRATES */
-
 .emirates-container{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
@@ -113,7 +117,6 @@ transform:scale(1.05);
 }
 
 /* CATEGORY BUTTONS */
-
 .categories{
 display:flex;
 flex-wrap:wrap;
@@ -139,13 +142,11 @@ transform:scale(1.05);
 }
 
 /* FOOD SECTIONS */
-
 .food-section{
 display:none;
 }
 
 /* CARDS */
-
 .cards{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
@@ -192,8 +193,7 @@ color:gold;
 margin-top:8px;
 }
 
-/* APPLICATIONS */
-
+/* APPS */
 .apps{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -223,41 +223,7 @@ transition:0.3s;
 background:#333;
 }
 
-/* FOOTER */
-
-footer{
-background:#111;
-color:white;
-text-align:center;
-padding:30px;
-margin-top:60px;
-}
-
-/* MOBILE */
-
-@media(max-width:768px){
-
-header{
-flex-direction:column;
-}
-
-nav{
-margin-top:15px;
-}
-
-.section-title{
-font-size:30px;
-}
-
-.hero h2{
-font-size:35px;
-}
-
-.hero p{
-font-size:17px;
-}
 /* OUR GOAL SECTION */
-
 .main-title{
 text-align:center;
 font-size:55px;
@@ -287,16 +253,37 @@ line-height:1.9;
 color:#444;
 text-align:left;
 }
-img {
-    display: block;
+
+/* FOOTER */
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:60px;
 }
-  body {
-    margin: 0;
-    padding: 0;
+
+/* MOBILE */
+@media(max-width:768px){
+
+header{
+flex-direction:column;
 }
-  img {
-    width: 100%;
-    height: auto;
+
+nav{
+margin-top:15px;
+}
+
+.section-title{
+font-size:30px;
+}
+
+.hero h2{
+font-size:35px;
+}
+
+.hero p{
+font-size:17px;
 }
 
 }
